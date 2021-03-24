@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="app.js" defer>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./html/popup.html">
+  <title>MLVLTD Landing Page</title>
+</head>
+<body>
+      <section class="showcase">
+    <header>
+      <h2 class="logo">MLVLTD</h2>
+      <div class="toggle"></div>
+    </header>
+
+    <video class = "" src="yt1s.com - Desolated The Beginning Official Video_v720P.mp4" muted loop autoplay></video>
+
+    <div id="mainLogo" class = "shake element">
+      <img src="./mlvltd_logo.jpg" alt="">
+      </div>
+
+    <ul class="social">
+      <li><a href="https://www.facebook.com/MLVLTD/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://twitter.com/mlvltdmusic?lang=en"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/m.l.v.l.t.d/?hl=en"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+
+  <div class="menu">
+    <ul>
+      <li><a class ="current" href="index.html">Home</a></li>
+      <li><a href="./html/music.html">Music</a></li>
+      <li><a href="./html/stores.html">Stores</a></li>
+      <li><a href="./html/sale.html">Sale</a></li>
+      <li><a href="./html/contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+  const showcase = document.querySelector('.showcase');
+
+  menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  showcase.classList.toggle('active');
+  })
+  </script>
+</body>
+</html>
